@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Projects - The Local Intelligence Project</title>
+  <meta name="description" content="Current project work, branch updates, gallery notes, and open project documentation for The Local Intelligence Project." />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&amp;family=Newsreader:wght@400;500;600&amp;family=Spline+Sans+Mono:wght@400;500&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260604-launch-proof" />
+</head>
+<body>
+  <div class="edit-panel" data-editor-ui>
+    <button type="button" id="editToggle">Edit page</button>
+    <button type="button" id="exportEdits">Export HTML</button>
+    <button type="button" id="showHidden">Show hidden</button>
+    <button type="button" id="resetEdits">Reset edits</button>
+    <span id="editStatus">Fresh editor</span>
+  </div>
+
+  <header class="nav" id="top">
+    <a class="nav__brand" href="index.html">
+      <img src="assets/logo-octopus-mark.png" alt="" class="nav__mark" onerror="this.style.display='none'" />
+      <span>The Local Intelligence Project</span>
+    </a>
+    <nav class="nav__links">
+      <a href="digital-terraforming.html">Digital Terraforming</a>
+      <a href="mission.html">Mission</a>
+      <a href="open-projects.html" aria-current="page">Open Projects</a>
+      <a href="resources.html">Resources</a>
+      <a href="branches.html#atlas" class="nav__cta">Find a Branch</a>
+    </nav>
+  </header>
+  <section class="article-hero project-hero">
+    <div class="article-hero__inner">
+      <span class="eyebrow">Open projects</span>
+      <h1>Our current projects</h1>
+      <p>As our community grows, this page will become a home for project updates, member builds, branch progress, and everything we make together along the way.</p>
+      <div class="article-hero__actions">
+        <a href="mailto:thelocalintelligenceproject@protonmail.com" class="btn btn--solid">Share a project with us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="projects">
+    <div class="project-section-intro">
+      <span class="eyebrow">Branch initiatives</span>
+      <h2>The Local Intelligence Project: Our Four Pillars</h2>
+      <p>A brief overview of the initiatives we will build through local branches, along with the first steps for each.</p>
+    </div>
+    <div class="project-initiative-notes" aria-label="Initiative descriptions">
+      <article>
+        <img src="assets/openroot-icon.png" alt="" class="project-initiative__mark" loading="lazy" decoding="async" />
+        <h3>OpenRoot</h3>
+        <p>Roadmap: build a plain-language AI literacy track that branches can use for learning circles, public explainers, local workshops, and shared community guides.</p>
+        <p>First steps: collect the most common beginner questions, write the first starter guide, host one introductory call, and ask members to test the language with people in their own circles.</p>
+      </article>
+      <article>
+        <img src="assets/tinbot-exchange-icon.png" alt="" class="project-initiative__mark" loading="lazy" decoding="async" />
+        <h3>Tinbot Exchange</h3>
+        <p>Roadmap: create a trusted exchange for reclaimed laptops, routers, parts, tools, and small compute so useful hardware can be repaired, traded, documented, and reused.</p>
+        <p>First steps: define donation and safety rules, make a drive-wipe checklist, create a simple inventory template, and start a small list of available parts and local hardware needs.</p>
+      </article>
+      <article>
+        <img src="assets/myceli-net-icon.png" alt="" class="project-initiative__mark" loading="lazy" decoding="async" />
+        <h3>Myceli-Net</h3>
+        <p>Roadmap: test small offline communication systems and local knowledge-sharing practices that can help branches stay coordinated without depending fully on centralized platforms.</p>
+        <p>First steps: document a beginner mesh setup, collect privacy and safety notes, run a small local range test, and turn the results into a repeatable starter guide.</p>
+      </article>
+      <article>
+        <img src="assets/solar-link-icon.png" alt="" class="project-initiative__mark" loading="lazy" decoding="async" />
+        <h3>Solar Link</h3>
+        <p>Roadmap: develop the physical branch model: repair benches, gardens, local servers, workshops, gathering space, and practical infrastructure that connects technology back to place.</p>
+        <p>First steps: define what counts as a Solar Link, identify possible host spaces, list basic equipment needs, and document one small pilot setup that other branches can adapt.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section project-follow">
+    <div class="project-follow__copy">
+      <span class="eyebrow">In the meantime</span>
+      <h2>Follow along and join the conversation.</h2>
+      <p>We are still early. For now, the fastest way to see updates, ask questions, and help shape the project is through Discord and the public social channels.</p>
+    </div>
+    <div class="project-follow__links" aria-label="Social media and community links">
+      <a class="social-link" href="https://discord.gg/W8UtFEUrK" aria-label="Join our Discord">
+        <span class="discord-cta__icon social-icon" aria-hidden="true"></span>
+        <strong>Discord</strong>
+        <span>Main conversation space.</span>
+      </a>
+      <a class="social-link" href="https://x.com/LocalIntelProj" aria-label="Twitter/X profile">
+        <img class="social-icon" src="assets/x-mark.svg" alt="" loading="lazy" decoding="async" />
+        <strong>Twitter/X</strong>
+        <span>Fast public updates.</span>
+      </a>
+      <a class="social-link" href="https://www.facebook.com/profile.php?id=61590782542123" aria-label="Facebook profile">
+        <img class="social-icon" src="assets/facebook-mark.svg" alt="" loading="lazy" decoding="async" />
+        <strong>Facebook</strong>
+        <span>Local shares and events.</span>
+      </a>
+      <a class="social-link social-link--disabled" aria-label="TikTok profile coming soon" aria-disabled="true">
+        <img class="social-icon" src="assets/tiktok-mark.svg" alt="" loading="lazy" decoding="async" />
+        <strong>TikTok</strong>
+        <span>Short field updates soon.</span>
+      </a>
+    </div>
+  </section>
+  <script src="page-editor.js?v=20260604-disk-save"></script>
+</body>
+</html>

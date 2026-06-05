@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Local Intelligence Project - Let's reclaim intelligence.</title>
+  <meta name="description" content="A community infrastructure project for local AI literacy, reclaimed hardware, offline networks, and practical independence from centralized AI systems, rooted in regenerative technology, human-AI symbiosis, and shared power." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Local Intelligence Project" />
+  <meta property="og:description" content="Let's reclaim intelligence. Local AI literacy, reclaimed hardware, offline networks, and practical independence from centralized AI systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://thelocalintelligenceproject.org/assets/logo.png" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&amp;family=Newsreader:wght@400;500;600&amp;family=Spline+Sans+Mono:wght@400;500&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260604-launch-proof" />
+</head>
+<body>
+
+  <!--
+    COPY EDITING GUIDE
+    Full editable slot map: CONTENT-SLOTS.md
+    Send updates using labels like HERO_TAGLINE, WHY_BODY, INITIATIVE_01_BODY.
+  -->
+
+  <div class="edit-panel" data-editor-ui>
+    <button type="button" id="editToggle">Edit page</button>
+    <button type="button" id="exportEdits">Export HTML</button>
+    <button type="button" id="showHidden">Show hidden</button>
+    <button type="button" id="resetEdits">Reset edits</button>
+    <span id="editStatus">Fresh editor</span>
+  </div>
+
+  <!-- ===== NAV =====
+    Slots: NAV_BRAND, NAV_LINK_TERRAFORMING, NAV_LINK_MISSION,
+    NAV_LINK_PROJECTS, NAV_LINK_BRANCHES, NAV_LINK_PARTNERS, NAV_CTA
+  -->
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#top">
+      <img src="assets/logo-octopus-mark.png" alt="" class="nav__mark" onerror="this.style.display='none'" />
+      <span>The Local Intelligence Project</span>
+    </a>
+    <nav class="nav__links">
+      <a href="digital-terraforming.html">Digital Terraforming</a>
+      <a href="mission.html">Mission</a>
+      <a href="open-projects.html">Open Projects</a>
+      <a href="resources.html">Resources</a>
+      <a href="branches.html#atlas" class="nav__cta">Find a Branch</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO =====
+    Slots: HERO_TITLE, HERO_TAGLINE, HERO_SUMMARY, HERO_FACT_01-03,
+    HERO_CTA_PRIMARY, HERO_CTA_SECONDARY, HERO_CTA_TERTIARY
+  -->
+  <section class="hero">
+    <div class="hero__inner">
+      <img src="assets/logo.png" alt="The Local Intelligence Project - octopus mark" class="hero__logo" />
+      <h1>The Local Intelligence Project</h1>
+      <p class="hero__tagline">Let's reclaim intelligence.</p>
+      <p class="hero__lede">
+        A community infrastructure project for local AI literacy, reclaimed
+        hardware, offline networks, and practical independence from centralized
+        AI systems, rooted in regenerative technology, human-AI symbiosis, and
+        shared power.
+      </p>
+      <div class="hero__facts" aria-label="Founding pilot details">
+        <span data-edit-key="HERO_FACT_01">Community-driven innovation</span>
+        <span data-edit-key="HERO_FACT_02">Recycled tech</span>
+        <span data-edit-key="HERO_FACT_03">distributed intelligence</span>
+      </div>
+      <div class="hero__actions">
+        <a href="#principles" class="btn btn--ghost" data-edit-key="HERO_CTA_PRIMARY">What is it?</a>
+        <a href="#what" class="btn btn--ghost" data-edit-key="HERO_CTA_SECONDARY">Open projects</a>
+        <a href="#join" class="btn btn--ghost" data-edit-key="HERO_CTA_TERTIARY">How to help</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIGITAL TERRAFORMING EXPLAINER =====
+    Slots: WHY_EYEBROW, WHY_TITLE_DISPLAY, WHY_BODY
+  -->
+  <section class="section section--principles" id="principles">
+    <div class="principles">
+      <div class="principles__summary">
+        <div class="principles__intro">
+          <span class="eyebrow" data-edit-key="WHY_EYEBROW">What is it</span>
+          <h2 data-edit-key="WHY_TITLE_DISPLAY">Digital Terraforming</h2>
+        </div>
+        <figure class="principles__media">
+          <img src="assets/digital-terraforming-workshop.png" alt="Reclaimed laptops, routers, seedlings, and repair tools on a workshop table" loading="lazy" decoding="async" />
+        </figure>
+        <div class="principles__copy">
+          <p data-edit-key="WHY_BODY_01">The Local Intelligence Project is building an ecosystem for Digital Terraforming: making the intelligence landscape livable and intuitive, and rooting powerful tools back into real communities before they become distant, expensive, or fully centralized.</p>
+          <p data-edit-key="WHY_BODY_02_ENVIRONMENT">AI is already helping people do things they could not do before. It can be an accessibility aid, a research engine, and a creative tool. But it also comes with tradeoffs: energy use, water use, hardware waste, weak oversight, and companies racing ahead like the environment is someone else's problem.</p>
+          <p data-edit-key="WHY_BODY_03_SOLUTION">Digital Terraforming is the practical response: recycle compute, reclaim old hardware, teach AI literacy, build offline networks, and make local tools people can understand, repair, and share. The goal is not to opt out of intelligence. The goal is to grow community-owned systems that keep power closer to the people using them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ROOT SOURCES / INITIATIVES =====
+    Slots: ROOTS_EYEBROW, ROOTS_TITLE, ROOTS_SUMMARY,
+    INITIATIVE_01-03_TITLE, INITIATIVE_01-03_BODY, INITIATIVE_01-03_BULLETS
+  -->
+  <section class="section" id="what">
+    <div class="section__head">
+      <span class="eyebrow" data-edit-key="ROOTS_EYEBROW">Initiatives</span>
+      <h2 data-edit-key="ROOTS_TITLE">The Three Initiatives</h2>
+      <p class="section__note" data-edit-key="ROOTS_SUMMARY">We build together.</p>
+    </div>
+    <div class="initiatives initiatives--featured">
+      <article class="init init--openroot">
+        <img src="assets/openroot-icon.png" alt="" class="init__icon" />
+        <h3>OpenRoot</h3>
+        <p class="init__line" data-edit-key="INITIATIVE_02_TAGLINE">Share the intelligence.</p>
+        <p>Open-source AI education, local models, civic literacy, tools, documentation, and monthly meetups for builders and learners.</p>
+        <ul>
+          <li data-edit-key="INITIATIVE_02_BULLET_01">Host OpenRoot meetups and skill shares in person and online</li>
+          <li>Publish beginner guides and monthly bulletins</li>
+          <li>Cover civic topics like data centers, energy, water, and access</li>
+        </ul>
+      </article>
+      <article class="init init--tinbot">
+        <img src="assets/tinbot-exchange-icon.png" alt="" class="init__icon" />
+        <h3>Tinbot Exchange</h3>
+        <p class="init__line" data-edit-key="INITIATIVE_01_TAGLINE">Recycle the compute.</p>
+        <p data-edit-key="INITIATIVE_01_BODY">A dedicated salvage and sourcing channel for trading, collecting, and repairing old hardware: sensors, robotics parts, small computers, and useful components.</p>
+        <ul>
+          <li data-edit-key="INITIATIVE_01_BULLET_01">For project initiatives and personal builds</li>
+          <li data-edit-key="INITIATIVE_01_BULLET_02">Member priority and BOLOs</li>
+          <li data-edit-key="INITIATIVE_01_BULLET_03">Emphasis on barter + trading</li>
+        </ul>
+      </article>
+      <article class="init init--myceli">
+        <img src="assets/myceli-net-icon.png" alt="" class="init__icon" />
+        <h3>Myceli-Net</h3>
+        <p class="init__line" data-edit-key="INITIATIVE_03_TAGLINE">Keep the signal online.</p>
+        <p>Mesh networks, offline comms, and low-power local signal systems for community resilience, disaster prep, and platform-independent coordination.</p>
+        <ul>
+          <li>Research Meshtastic and low-power relay setups</li>
+          <li>Publish starter-kit notes and build logs</li>
+          <li data-edit-key="INITIATIVE_03_BULLET_03">Keep public maps approximate and anonymous for privacy and safety</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== BRANCHES / SOLAR LINKS / LONG-TERM VISION =====
+    Slots: FIELD_EYEBROW, FIELD_TITLE, FIELD_BODY, FIELD_NOTE
+  -->
+  <section class="section section--vision" id="field-stations">
+    <div class="vision">
+      <span class="eyebrow" data-edit-key="FIELD_EYEBROW">Long-term vision</span>
+      <h2 data-edit-key="FIELD_TITLE">Branches, Solar Links, and a living mesh.</h2>
+      <p data-edit-key="FIELD_BODY">The long-term vision is to grow branches across the United States until local groups can connect into a living mesh of shared skills, trusted tools, and practical independence from centralized AI companies.</p>
+      <p data-edit-key="FIELD_BODY_02">As branches mature, some may become Solar Links: physical community nodes with gardens, repair benches, local servers, green mini data centers, mesh relays, workshops, and shared land for building together. Not everyone has to live there. The purpose is to create grounded places where people can meet, repair tools, grow food, run local compute, and practice technological independence as a community.</p>
+      <p data-edit-key="FIELD_BODY_03">The first physical pilots begin in the United States, while the learning commons stays open worldwide for anyone who wants to adapt the guides in their own region.</p>
+      <p class="vision__note" data-edit-key="FIELD_NOTE">The first step is a focused pilot: shared trust, useful documentation, reclaimed hardware, local learning, and a few real builds people can repeat.</p>
+      <figure class="vision__media" role="img" aria-label="People working with reclaimed electronics beside gardens, solar panels, and local signal equipment">
+        <figcaption data-edit-key="FIELD_IMAGE_CAPTION">Solar Link concept: repair benches, gardens, local compute, and offline relays in one grounded place.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== WAYS TO PARTICIPATE =====
+    Slots: CHARTER_EYEBROW, CHARTER_TITLE, CHARTER_SUMMARY,
+    CHARTER_01-04_TITLE, CHARTER_01-04_BULLETS
+  -->
+  <section class="section section--alt" id="partners">
+    <div class="section__head">
+      <span class="eyebrow" data-edit-key="CHARTER_EYEBROW">Ways to participate</span>
+      <h2 data-edit-key="CHARTER_TITLE">Public, partner, or branch.</h2>
+      <p class="section__note" data-edit-key="CHARTER_SUMMARY">There are a few ways to step in, from following along publicly to building trusted local capacity over time.</p>
+    </div>
+    <div class="charter">
+      <article>
+        <span class="charter__level">01 / Open</span>
+        <h3 data-edit-key="CHARTER_01_TITLE">Public participants</h3>
+        <p data-edit-key="CHARTER_01_BODY">Anyone can follow along from anywhere in the world. Join open calls, test guides, share useful links, submit Tinbot finds, bring local observations, and learn with the project without needing approval or being based in the U.S.</p>
+      </article>
+      <article>
+        <span class="charter__level">02 / Aligned</span>
+        <h3 data-edit-key="CHARTER_02_TITLE">Recognized partners</h3>
+        <p data-edit-key="CHARTER_02_BODY">Partners are aligned shops, farms, homesteads, makerspaces, libraries, educators, builders, or local groups that help source hardware, host sessions, test guides, offer skills, or support one of the core initiatives.</p>
+      </article>
+      <article>
+        <span class="charter__level">03 / Trusted</span>
+        <h3 data-edit-key="CHARTER_03_TITLE">Official branches</h3>
+        <p data-edit-key="CHARTER_03_BODY">Official branches are trusted local groups approved to represent a region or initiative. They are trusted with local coordination, shared documentation, regional outreach, and turning agreed-upon projects into visible community progress.</p>
+      </article>
+    </div>
+    <div class="charter-fit">
+      <h3 data-edit-key="CHARTER_FIT_TITLE">You might be a good fit if</h3>
+      <p data-edit-key="CHARTER_FIT_BODY">You build, repair, teach, grow, document, organize, or test practical systems. We are looking for people who care about open-source AI, reclaimed hardware, local resilience, offline networks, robotics, computing, farming, outreach, repair, or civic life, and who are reliable enough to help build trust around branch work and future local nodes.</p>
+    </div>
+  </section>
+
+  <!-- ===== JOIN =====
+    Slots: JOIN_EYEBROW, JOIN_TITLE, JOIN_BUTTON, SOCIAL_CHANNELS
+  -->
+  <section class="section section--join" id="join">
+    <div class="join">
+      <span class="eyebrow" data-edit-key="JOIN_EYEBROW_MOVEMENT">Join the movement</span>
+      <h2 data-edit-key="JOIN_TITLE_MOVEMENT">Join the movement.</h2>
+      <div class="join__ctas" aria-label="Primary join actions">
+        <a class="join-cta join-cta--discord" href="https://discord.gg/W8UtFEUrK" aria-label="Join our Discord">
+          <span class="discord-cta__icon" aria-hidden="true"></span>
+          <span data-edit-key="JOIN_DISCORD_CTA">Join our Discord</span>
+        </a>
+        <a class="join-cta join-cta--projects" href="open-projects.html" aria-label="Our projects">
+          <img src="assets/logo-octopus-mark.png" alt="" loading="lazy" decoding="async" />
+          <span>Our Projects</span>
+        </a>
+      </div>
+
+      <div class="join__socials" aria-label="Public update links">
+        <div class="social-links">
+          <a class="social-link" href="https://www.facebook.com/profile.php?id=61590782542123" aria-label="Facebook profile">
+            <img class="social-icon" src="assets/facebook-mark.svg" alt="" loading="lazy" decoding="async" />
+            <strong data-edit-key="SOCIAL_FACEBOOK_LABEL">Facebook</strong>
+            <span data-edit-key="SOCIAL_FACEBOOK_STATUS">Local events and shares.</span>
+          </a>
+          <a class="social-link" href="https://x.com/LocalIntelProj" aria-label="X profile">
+            <img class="social-icon" src="assets/x-mark.svg" alt="" loading="lazy" decoding="async" />
+            <strong data-edit-key="SOCIAL_X_LABEL">Twitter/X</strong>
+            <span data-edit-key="SOCIAL_X_STATUS">Fast public updates and launch posts.</span>
+          </a>
+          <a class="social-link social-link--disabled" aria-label="TikTok profile coming soon" aria-disabled="true">
+            <img class="social-icon" src="assets/tiktok-mark.svg" alt="" loading="lazy" decoding="async" />
+            <strong data-edit-key="SOCIAL_TIKTOK_LABEL">TikTok</strong>
+            <span data-edit-key="SOCIAL_TIKTOK_STATUS">Short builds and field notes soon.</span>
+          </a>
+          <a class="social-link" href="mailto:thelocalintelligenceproject@protonmail.com" aria-label="Email The Local Intelligence Project">
+            <img class="social-icon" src="assets/mail-mark.svg" alt="" loading="lazy" decoding="async" />
+            <strong data-edit-key="SOCIAL_EMAIL_LABEL">Email</strong>
+            <span data-edit-key="SOCIAL_EMAIL_STATUS">thelocalintelligenceproject@protonmail.com</span>
+          </a>
+        </div>
+        <a class="branch-teaser" href="branches.html#atlas" aria-label="Learn how to open a branch">
+          <div class="branch-teaser__map">
+            <img src="assets/us-states-map.svg" alt="" loading="lazy" decoding="async" />
+            <span class="branch-teaser__pin" aria-hidden="true"></span>
+          </div>
+          <strong>Find your local branch</strong>
+          <span>See emerging regional coverage and learn how branches work.</span>
+          <em>Explore branches.</em>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a class="footer__mark" href="https://thelocalintelligenceproject.org">thelocalintelligenceproject.org</a>
+    </div>
+  </footer>
+
+  <script src="page-editor.js?v=20260604-disk-save"></script>
+</body>
+</html>

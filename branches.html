@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Branches - The Local Intelligence Project</title>
+  <meta name="description" content="Regional branches, Solar Links, and broad public coverage for The Local Intelligence Project." />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&amp;family=Newsreader:wght@400;500;600&amp;family=Spline+Sans+Mono:wght@400;500&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260604-launch-proof" />
+</head>
+<body>
+  <div class="edit-panel" data-editor-ui>
+    <button type="button" id="editToggle">Edit page</button>
+    <button type="button" id="exportEdits">Export HTML</button>
+    <button type="button" id="showHidden">Show hidden</button>
+    <button type="button" id="resetEdits">Reset edits</button>
+    <span id="editStatus">Fresh editor</span>
+  </div>
+
+  <header class="nav" id="top">
+    <a class="nav__brand" href="index.html">
+      <img src="assets/logo-octopus-mark.png" alt="" class="nav__mark" onerror="this.style.display='none'" />
+      <span>The Local Intelligence Project</span>
+    </a>
+    <nav class="nav__links">
+      <a href="digital-terraforming.html">Digital Terraforming</a>
+      <a href="mission.html">Mission</a>
+      <a href="open-projects.html">Open Projects</a>
+      <a href="resources.html">Resources</a>
+      <a href="branches.html#atlas" class="nav__cta" aria-current="page">Find a Branch</a>
+    </nav>
+  </header>
+  <section class="placeholder-hero">
+    <div class="placeholder-hero__inner">
+      <span class="eyebrow">Branches</span>
+      <h1>Branches</h1>
+      <p>Learn more about branch locations and where we are expanding.</p>
+    </div>
+  </section>
+  <section class="section" id="atlas">
+    <div class="atlas">
+      <div>
+        <span class="eyebrow">Branch map</span>
+        <h2>Emerging branch coverage.</h2>
+        <p>The map begins with broad state-level coverage. We hope to grow into at least 20 states by the end of 2026 without exposing exact private node locations.</p>
+      </div>
+      <div class="atlas__map" aria-label="Approximate branch coverage map showing Florida at state level only">
+        <div class="atlas__map-frame">
+          <img src="assets/us-states-map.svg" alt="Blank United States state map" class="atlas__map-img" loading="lazy" decoding="async" />
+          <span class="atlas__pin" aria-label="Florida state-level branch presence"></span>
+          <span class="atlas__pin-label">Florida</span>
+        </div>
+        <div class="atlas__legend">
+          <span><i></i> State-level branch presence</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section--alt" id="branch-founder">
+    <div class="placeholder-panel">
+      <h2>Interested in opening a branch or becoming a partner?</h2>
+      <div>
+        <p>The Local Intelligence Project is looking for people who are enthusiastic about our mission and interested in getting involved. Whether you would like to be a recognized partner or feel you would be a good fit for opening a local branch in your area, we would love to hear from you.</p>
+        <div class="placeholder-actions">
+          <a href="https://discord.gg/W8UtFEUrK" class="btn btn--solid">Check out our Discord</a>
+          <a href="mailto:thelocalintelligenceproject@protonmail.com" class="btn btn--ghost">Send us an email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="page-editor.js?v=20260604-disk-save"></script>
+</body>
+</html>
