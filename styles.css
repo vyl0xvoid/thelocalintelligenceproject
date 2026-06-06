@@ -1396,8 +1396,8 @@ h4 {
 
 .atlas__pin {
   position: absolute;
-  left: 83.6%;
-  top: 87.2%;
+  left: var(--pin-x);
+  top: var(--pin-y);
   width: 1rem;
   height: 1rem;
   border: 2px solid var(--paper-on-dark);
@@ -1421,13 +1421,33 @@ h4 {
 
 .atlas__pin-label {
   position: absolute;
-  left: 83.6%;
-  top: calc(87.2% + 1.45rem);
+  left: var(--pin-x);
+  top: calc(var(--pin-y) + 1.45rem);
   transform: translateX(-50%);
   color: rgba(248,241,223,0.92);
   font-family: 'Spline Sans Mono', monospace;
   font-size: 0.72rem;
   text-transform: uppercase;
+}
+
+.map-pin--fl {
+  --pin-x: 83.6%;
+  --pin-y: 87.2%;
+}
+
+.map-pin--tx {
+  --pin-x: 47.2%;
+  --pin-y: 77.8%;
+}
+
+.map-pin--wi {
+  --pin-x: 65.3%;
+  --pin-y: 41.6%;
+}
+
+.map-pin--ny {
+  --pin-x: 84.4%;
+  --pin-y: 35.1%;
 }
 
 .atlas__legend {
@@ -1669,8 +1689,6 @@ h4 {
 
 .branch-teaser__pin {
   position: absolute;
-  left: 74.4%;
-  top: 81.8%;
   width: 0.48rem;
   height: 0.48rem;
   border: 1px solid var(--paper-on-dark);
@@ -1678,6 +1696,26 @@ h4 {
   background: var(--gold);
   box-shadow: 0 0 0 0.34rem rgba(184,137,56,0.22);
   transform: translate(-50%, -50%);
+}
+
+.branch-teaser__pin--fl {
+  left: 74.4%;
+  top: 81.8%;
+}
+
+.branch-teaser__pin--tx {
+  left: 42.2%;
+  top: 73.1%;
+}
+
+.branch-teaser__pin--wi {
+  left: 58.1%;
+  top: 39.1%;
+}
+
+.branch-teaser__pin--ny {
+  left: 75.1%;
+  top: 33.2%;
 }
 
 .branch-teaser strong {
